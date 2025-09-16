@@ -1,39 +1,56 @@
-🌙 AI Dream Interpreter
+# 🌙 AI Dream Interpreter
 
-Unlock the hidden meaning of your dreams using AI, psychology, and emotion analysis.
+An **AI-powered Dream Interpretation System** that blends **psychology + AI + emotional analysis** to give deeper insights into your subconscious mind.  
+Built with **Streamlit**, **NLP**, and **LLM-based reasoning** (LLaMA via Hugging Face).
 
-This project combines NLP, sentiment analysis, and a state-of-the-art LLM (LLaMA 3.1 Instruct) to interpret user dreams while tracking emotional patterns over time. The app also includes a visual, interactive dashboard to explore trends and insights.
+---
 
-🔹 Features
+## ✨ Features
 
-💭 Dream Input: Users can type any dream description.
+- 🧠 **Dream Interpretation**: Extracts psychological symbols and connects them with real-life emotions.  
+- 😃 **Emotion Tracking**: Sentiment analysis of user’s mood logs.  
+- 📚 **RAG + Psychology DB**: Uses retrieval-augmented generation for accurate psychological insights.  
+- 📊 **Dashboard**: Interactive and colorful charts showing dream trends, recurring themes, and mood correlation.  
+- 🎨 **Modern UI**: Beautiful, intuitive, and interview-ready.
 
-🧠 Emotion Detection: Detects the dominant emotion in your dream (happy, sad, anxious, etc.).
+---
 
-🔍 Symbol Extraction: Identifies psychological symbols and motifs (e.g., forest, door, flying).
+## 🖼️ Screenshots
 
-🤖 AI Dream Interpretation: Uses LLaMA 3.1 via Hugging Face API to generate personalized interpretations.
+### 🌙 Home Page
+Describe your dream and get an instant interpretation.
 
-💾 Database Storage: Stores all dreams, emotions, and interpretations in SQLite for persistence.
+![Home Page](screenshots/home.png)
 
-📊 Interactive Dashboard: Visualizes dream trends, emotions over time, and statistics.
+---
 
-🎨 Attractive UI: Gradient backgrounds, stylish cards, charts, and icons for a polished, modern look.
+### 📊 Dashboard
+Visualize dream patterns, recurring symbols, and mood tracking.
 
-🛠️ Tech Stack
+![Dashboard](screenshots/dashboard.png)
 
-Frontend/UI: Streamlit
+---
 
-NLP & Symbol Extraction: Python + custom extraction
+### 🔮 Insights
+See how dreams and emotions connect over time.
 
-Emotion Analysis: Sentiment detection module
+![Insights](screenshots/Search.png)
 
-AI Model: LLaMA 3.1 Instruct (via Hugging Face API)
+---
 
-Database: SQLite (dream_logs.db)
+## 🛠️ Tech Stack
 
-Visualization: Matplotlib + Pandas
+- **Frontend/UI** → Streamlit  
+- **NLP & NER** → Hugging Face Transformers  
+- **LLM Reasoning** → LLaMA 3.1 (Hugging Face API)  
+- **Database** → SQLite (dream + mood logs)  
+- **Visualization** → Matplotlib & Streamlit native charts  
 
-Styling: Custom CSS in Streamlit
+---
 
+## 🚀 Getting Started
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/PratyayRajak/AI_Dream_Interpreter.git
+cd AI_Dream_Interpreter
