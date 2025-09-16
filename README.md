@@ -36,19 +36,4 @@ Visualization: Matplotlib + Pandas
 
 Styling: Custom CSS in Streamlit
 
-📂 Folder Structure
-ai-dream-interpreter/
-│── src/
-│   ├── app.py              # Main Streamlit app
-│   ├── mood/
-│   │   └── track.py        # Emotion detection
-│   ├── nlp/
-│   │   └── extract.py      # Dream symbol extraction
-│   ├── generator/
-│   │   └── interpreter.py  # AI dream interpretation
-│   ├── storage/
-│   │   ├── db.py           # Database functions
-│   │   └── db_utilits.py   # Database helper/debug
-│   └── visualization/
-│       └── dashboard.py    # Dashboard & charts
-│── db/                     # SQLite databases (created automatically)
+
