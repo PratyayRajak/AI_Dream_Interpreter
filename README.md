@@ -5,7 +5,7 @@ Built with **Streamlit**, **NLP**, and **LLM-based reasoning** (LLaMA via Huggin
 
 ---
 
-link-http://localhost:8504/
+link-https://pratyayrajak-ai-dream-interpreter-srcapp-5flhls.streamlit.app/
 
 ## ✨ Features
 
@@ -56,4 +56,5 @@ See how dreams and emotions connect over time.
 ```bash
 git clone https://github.com/PratyayRajak/AI_Dream_Interpreter.git
 cd AI_Dream_Interpreter
+
 
