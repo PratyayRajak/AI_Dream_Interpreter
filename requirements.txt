@@ -1,0 +1,7 @@
+openai
+langchain
+faiss-cpu
+sentence-transformers
+streamlit
+matplotlib
+pandas
