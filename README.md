@@ -5,6 +5,8 @@ Built with **Streamlit**, **NLP**, and **LLM-based reasoning** (LLaMA via Huggin
 
 ---
 
+link-http://localhost:8504/
+
 ## ✨ Features
 
 - 🧠 **Dream Interpretation**: Extracts psychological symbols and connects them with real-life emotions.  
@@ -54,3 +56,4 @@ See how dreams and emotions connect over time.
 ```bash
 git clone https://github.com/PratyayRajak/AI_Dream_Interpreter.git
 cd AI_Dream_Interpreter
+
